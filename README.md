@@ -1,0 +1,7 @@
+Three files
+wvdatscale
+    MS location https://learn.microsoft.com/en-us/azure/architecture/example-scenario/azure-virtual-desktop/azure-virtual-desktop#architecture
+    MS location azure-virtual-desktop-multi-region-resilient-deployment
+    https://learn.microsoft.com/en-us/security/zero-trust/azure-infrastructure-avd#reference-architecture
+    apply-zero-trust-to-Azure-Virtual-Desktop-diagrams 
+    https://learn.microsoft.com/en-us/security/zero-trust/azure-infrastructure-avd#reference-architecture
