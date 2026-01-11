@@ -2,7 +2,7 @@
 # Azure Virtual Desktop Architecture Diagram Corrections
 
 This repository documents updates made to three Microsoft‑published Azure Virtual Desktop (AVD) architectural diagrams that contained inaccuracies. Each section includes the source diagram, a description, and the corrections applied.
-
+Original files are in the folder original-files, new files are in new-files.
 ---
 
 ## 1. **wvdatscale**
@@ -11,10 +11,10 @@ This repository documents updates made to three Microsoft‑published Azure Virt
 https://learn.microsoft.com/en-us/azure/architecture/example-scenario/azure-virtual-desktop/azure-virtual-desktop#architecture
 
 **Description:**  
-A basic single‑region AVD architecture diagram illustrating network components and two host pools. The original diagram incorrectly placed one of the host pools within the hub subnet, and uses Windows Virtual Desktop rather than Azure Virtual Desktop
+A basic single‑region AVD architecture diagram illustrating network components and two host pools. The original diagram incorrectly placed one of the host pools within the hub subnet, uses Windows Virtual Desktop rather than Azure Virtual Desktop, doesn't label subnets and incorrectly calls a subnet a Vnet.
 
 **Corrections Applied:**  
-- Moved the desktop subnet out of the hub subnet into its own dedicated subnet. Updated Windows Virtual Desktop to Azure Virtual Desktop.
+- Moved the desktop subnet out of the hub subnet into its own dedicated subnet. Updated Windows Virtual Desktop to Azure Virtual Desktop. Labelled subnets and altered the text to refer to a subnet rather than VNet.
 
 ---
 
